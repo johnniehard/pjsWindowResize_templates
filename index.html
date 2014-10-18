@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MAZE</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="js/processing-1.4.1.js"></script>
+    <style>
+    body {
+        width: 100%;
+        height: 100%;
+    	margin: 0;
+    	padding: 0;
+        background-color: #000;
+        color: #FFF;
+    }
+
+    div {
+        margin: 0;
+        padding: 0;
+    }
+
+    canvas {
+        display: block;
+    	margin: 0;
+    	padding: 0;
+		
+    }
+    </style>
+
+    <script type="text/javascript">
+        window.addEventListener('resize', resizeCanvas, false);
+        //
+        function resizeCanvas() {
+            var pjs = Processing.getInstanceById("pro");
+            pjs.setMySize(window.innerWidth, window.innerHeight);
+        }
+    </script>
+
+  </head>
+
+  <body>
+
+    <canvas id="pro" data-processing-sources="print10.pde"	></canvas>
+
+  </body>
+</html>
