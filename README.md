@@ -1,7 +1,7 @@
 pjsWindowResize_templates
 =========================
 
-A template for resizing the processing sketch according to changes in window size.
+Templates for resizing the processing sketch according to changes in window size.
 
 [Basic](http://progressprocessing.github.io/pjsWindowResize_templates/basic/)
 Sketch size follows window size without consideration to proportions.
